@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #191919, #222222);
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: 3rem;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.repo {
+    background: #444;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.repo h2 {
+    font-size: 2rem;
+    color: #ffcc00;
+}
+
+.repo p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.repo a {
+    display: inline-block;
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.repo a:hover {
+    background: #e6b800;
+}
